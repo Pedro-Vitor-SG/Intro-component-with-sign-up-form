@@ -188,7 +188,16 @@ footer a{
     font-style: italic;
  
 }
-@media only screen and (min-width: 960px){
+@media screen and (min-width: 300px) and (max-width: 528px) {
+
+    .container-validation .promotion p {
+
+     margin: 0 70px;
+     
+    }
+  }
+
+@media only screen and (min-width: 965px){
 .container-main{
     display: flex;
 
