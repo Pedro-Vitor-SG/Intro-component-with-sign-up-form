@@ -1,0 +1,212 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background: url(./images/bg-intro-mobile.png) hsl(0, 100%, 74%) ;
+}
+
+header {
+    margin: auto;
+    width: 80%;
+    padding: 10% 0px  ;
+  
+    color: #fff;
+
+    text-align: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+header .titulo{
+    font-weight: 600;
+}
+header .main-paragraph{
+    margin:0px 40px ;
+}
+
+/*-------------------------------*/
+.container-validation{
+ 
+    margin: auto;
+    width: 80%;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+}
+.container-validation .promotion{
+    background: hsl(248, 32%, 49%);
+    color: #eee;
+    height: 80px;
+    font-size: 1.3rem;
+    border-radius:10px ;
+    border: none;
+    box-shadow: 0px 7px rgba(0, 0, 0, 0.2);
+}
+.container-validation .promotion p {
+    line-height: 30px;
+    margin: 0px 100px;
+    
+}
+.container-validation .promotion strong{
+    color: #fff;
+}
+.container-validation .promotion:hover{
+    background:#483D8B ;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.container-validation .promotion:focus{
+    outline:none;   
+}
+/*---------------------------------------*/
+
+.container-main form{
+    margin-top: 30px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 10px rgba(0, 0, 0, 0.2);
+}
+.container-main form .fields{
+  margin-top:20px;
+  
+
+}
+.container-main form .fields input{
+    width: 80%;
+    height: 50px;
+    border-radius:5px ;
+    border: 1px solid #ccc;
+    padding-left:15px ;
+    font-weight: 600;
+    font-size:0.9rem;
+}
+.container-main form .fields input:hover{
+    cursor: pointer;
+}
+.container-main form .fields input:hover{
+   
+    box-shadow: 0px 0px 5px #bbb;
+    transition: 0.3s;
+}
+.container-main form .fields input:focus{
+    outline: none;
+}
+form .erro-fields{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+    align-content: center;
+    position: relative;
+     display: none;
+    
+}
+form .erro-fields input{
+    width: 80%;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: rgb(255, 122, 122) 1px solid;
+    font-size: 0.8rem;
+
+}
+form .erro-fields p {
+    color: hsl(0, 100%, 74%);
+    font-size: 0.7rem;
+    position: absolute;
+    right: 60px;
+    top: 65px;
+    
+
+}
+form .erro-fields img{
+    position: absolute;
+    height: 20px;
+    right: 65px;
+    top: 35px;
+}
+form .erro-fields input:focus{
+    outline: none;
+    box-shadow: 0px 0px 5px hsl(0, 100%, 74%);
+    transition: 0.3s;
+}
+form .erro-fields input:hover{
+    cursor: pointer;
+}
+/*-----------------------------*/
+
+form .btn-test{
+    border: none;
+    background: hsl(154, 59%, 51%);
+    color: #fff;
+    width: 80%;
+    height: 60px;
+    margin-top: 40px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    text-transform:uppercase ;
+    font-weight: 600;
+     box-shadow: 0px 3px 2px  #0a0;
+
+}
+form .btn-test:hover{
+    background-color: #2E8B57;
+    transition: 0.3s;
+}
+form .btn-test:focus{
+    outline: none;
+}
+/*-----------------------------*/
+
+form .terms{
+    color: #aaa;
+    margin: 20px 50px;
+}
+form .terms b{
+    color: hsl(0, 100%, 74%);
+}
+
+footer{
+    margin: auto;
+    background-color: hsl(248, 32%, 49%);
+    width: 80%;
+    height: 50px;
+    color: #fff;
+    margin-top:20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 1.0rem;
+}
+footer a{
+    color: hsl(154, 59%, 51%);
+    text-decoration:none ;
+    font-style: italic;
+ 
+}
+@media only screen and (min-width: 960px){
+.container-main{
+    display: flex;
+
+}
+
+  header{
+    
+     width:50%;
+     margin: 0px 30px;
+     text-align: left;
+  }
+header .titulo{
+    margin:  20px 40px;
+}
+   
+    .container-validation{
+        width: 50%;
+        margin: 0px 30px;
+       
+    }
+}
